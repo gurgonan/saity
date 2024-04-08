@@ -1,0 +1,24 @@
+header{padding:100px 0;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3265ff+1,cc0cfc+100 */
+  background-image: url("https://coderkube.com/wp-content/uploads/2017/08/filter-bg.jpg");/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+text-align: center;
+color: #f8f9fa;
+
+}
+body{
+ background: linear-gradient(to right,  rgba(166,207,219,1) 0%,rgba(125,185,232,1) 100%,rgba(166,207,219,1) 100%);
+;
+
+
+
+
+
+
+color: black}
+background: linear-gradient(to right,  rgba(255,169,33,1) 0%,rgba(255,94,20,1) 45%,rgba(255,67,20,1) 100%);
+background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1613025069_119-p-kartinki-fona-oranzhevogo-tsveta-132.jpg")
+strong{ color: black;}
+.card.card-body {
+  background: #990000;
+
+}

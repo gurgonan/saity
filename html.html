@@ -1,0 +1,363 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="программирование">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css\main.css">
+
+    <title>html</title>
+  </head>
+  <body>
+    <header  >
+
+
+      <img src="https://cdn2.iconfinder.com/data/icons/free-social-icons-1/200/Html5-1024.png" alt="" width="200px">
+
+
+    </header>
+<nav class="navbar bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Вернуться на главную страницу</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Оглавление
+          </a>
+          <ul class="dropdown-menu">
+
+            <li><a class="dropdown-item" href="#iazik">Язык гипертекстовой разметки (HTML)</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#razm">Разметка текста</a></li>
+            <li><a class="dropdown-item" href="#ssilki">Добавление ссылок</a></li>
+            <li><a class="dropdown-item" href="#izobr">Добавление изображений</a></li>
+
+          </ul>
+        </li>
+
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+        <button class="btn btn-outline-success" type="submit">Поиск</button>
+      </form>
+    </div>
+  </div>
+</nav>
+</nav>
+<a name="iazik"></a>
+    <h1>Язык гипертекстовой разметки (HTML)</h1>
+
+    HTML —язык не программирования, а разметки, он создает систему
+    для идентификации и описания различных компонентов документа,
+    таких как заголовки, абзацы и списки. Разметка обозначает скрытую
+    структуру документа. Чтобы написать HTML-код, вам не нужны навыки программирования.
+    <p>Разметка документов заключается в том, что документ представляется в
+    виде последовательности элементов. Например, чтобы отобразить в окне
+    браузера простейшую текстовую информацию
+    НТМL-документ должен иметь следующий вид:
+    </p>
+    <p>
+
+  <button class="btn btn-outline-danger collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Пример
+  </button>
+</p>
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    <pre class="text-bg-dark p-3">
+    &lt;!DOCTYPE html&gt;
+    &lt;<b style="color:#e8695a">html</b>&gt;
+      &lt;<b style="color:#e8695a">head</b>&gt;
+        &lt;<b style="color:#e8695a">meta</b> charset="utf-8"&gt;
+        &lt;<b style="color:#e8695a">title</b>>название сайта&lt;/<b style="color:#e8695a">title</b>&gt;
+      &lt;/<b style="color:#e8695a">head&gt</b>;
+      &lt;<b style="color:#e8695a">body</b>&gt;
+      &lt;/<b style="color:#e8695a">body</b>&gt;
+    &lt;/<b style="color:#e8695a">html</b>&gt;
+    </pre>
+  </div>
+
+
+
+</div>
+
+
+
+    <p id=290>Для создания html-документа достаточно набрать его текст в каком-либо
+    простом текстовом редакторе и сохранить его в файле с расширением .html
+    (например, example1.html). Чтобы открыть его, щелкните по нему дважды
+    мышкой, и содержимое html-фaйлa откроется в браузере.</p>
+    <hr>
+    <h2>Теги HTML</h2>
+    Элементы определяются тегами в исходном тексте. Тег состоит из имени элемента (как правило, это аббревиатура длинного имени элемента)
+    заключенного в угловые скобки (< >). Браузер «знает», что любой текст
+    внутри угловых скобок является скрытым, и не отображает его в своем
+    окне.
+    Имя элемента появляется в открывающем теге (также называемом
+    начальным тегом), а затем в закрывающем (или конечном) теге, после
+    слеша (/). Закрывающий тег работает чем-то вроде выключателя для
+    элемент.<br>
+    Пример использования тега b (текст, который написан между &lt;b&gt;         &lt;b&gt;,будет выделен жирным цветом на сайте):<br>
+    <button class="btn btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+      Пример
+    </button>
+  </p>
+  <div class="collapse" id="collapseExample1">
+    <div class="card card-body">
+      <pre class="text-bg-dark p-3">
+    &lt;<b style="color:#e8695a">b</b>&gt; тут пишете нужный вам текст &lt;/<b style="color:#e8695a">b</b>&gt;
+    <img src="img\2024-04-08_21-28-38.png" alt="">
+
+      </pre>
+    </div>
+  </div>
+
+    <h2>Структура</h2>
+    <ol>
+    <li>Тег &lt;! D0CTYPE html> позволяет браузеру, в котором открывается данная страница, определить, что для верстки был использован стандарт языка
+    HTML версии 5 .</li>
+    <li>Весь документ заключен в элемент html. Элемент html называется корневым элементом, поскольку он содержит все элементы
+    в документе и не может содержаться ни в каком другом элементе. </li>
+    <li>Содержимое внутри элемента html состоит из головы (раздел заголовка) и тела. Элемент head (раздел заголовка) содержит описательную информацию о документе, такую как заголовок, используемые таблицы стилей, сценарии и прочие метаданные.
+    </li>
+    <li>Также в разделе заголовка обязателен элемент title. В соответствии со спецификацией HTML, каждый документ должен содержать описательное название.
+    </li>
+    <li>элемент body (тело) содержит весь контент, который мы
+    хотим отобразить в окне браузера.</li>
+    </ol>
+    <h2>Пустые элементы</h2>
+
+    Несколько элементов не имеют текстового контента. Они называются пустыми. Элемент изображения (img) — один из таких — инструктирует браузер получить графический файл с сервера и вставить
+    его в поток текста в данной позиции документа. Пустыми элементанми являются также переводы строк (br), горизонтальные линии (hr)
+    и элементы, которые предоставляют информацию о документе, но не
+    влияют на его отображаемый контент, например элемент meta<br>
+
+    Пример: элемент &lt;br&gt; вставляет перевод строки.
+    <h2>Атрибуты</h2>
+    <a name="razm"></a>
+    Атрибуты — инструкции, которые уточняют или корректируют
+    элемент. Для элемента img атрибут src обязателен, он указывает расположение
+    файла изображения посредством его URL-адреса.<br>
+    Пример:
+    &lt;img src="ImgOOOl.jpg" width="200"&gt;<br>
+
+    <ul>
+    <li>src-имя атрибута</li>
+    <li>"Img0001.jpg"- значение атрибута</li>
+    <li>width-это атрибут, который задаёт размер изображения</li>
+    </ul>
+    <h1 >Разметка текста</h1>
+
+    Как только контент готов, и добавлена разметка для структуризации
+    документа (html, head, title и body), самое время определить элементы контента.
+    <h2>Абзацы</h2>
+    Абзацы (параграфы) — это самые первичные элементы текстового документа. Вы указываете абзац с помощью элемента р, вставляя открывающий тег <р> в начале и закрывающий тег </р> в конце.<br>
+    <button class="btn btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+      Пример
+    </button>
+    </p>
+    <div class="collapse" id="collapseExample2">
+    <div class="card card-body">
+      <pre class="text-bg-dark p-3">
+     &lt;<b style="color:#e8695a">p</b>>Наступила осень,стало прохладней и пожелтели листья &lt;/<b style="color:#e8695a">p</b>>
+       <img src="img\2024-04-08_21-23-23.png" alt="">
+      </pre>
+    </div>
+    </div>
+
+
+    <h2>Заголовки</h2>
+    В языке HTML предусмотрены теги, определяющие содержащийся между
+    их начальным и конечным тегами строку текста как заголовок. Всего определено шесть заголовков различного уровня. Каждому из них соответствует
+    определенный размер: самым маленьким является заголовок шестого уровня, самым большим - заголовок первого уровня. НТМL-элементами, соответствующими заголовкам с первого по шестой уровень, являются теги h1,
+    h2, hЗ, h4, h5, h6. Все заголовки отображаются жирным шрифтом.
+    <h2>Обозначение новой темы</h2>
+    &lt;hr>
+    Горизонтальная линия <br>
+    Если вы хотите указать, что одна тема или мысль завершена, и начинается другая, можете вставить в HTML5 так называемый тематический разрыв на уровне абзаца с помощью элемента hr. Он добавляет разделитель между логическими разделами или абзацами текста без введения
+    нового уровня заголовка
+    <h2>Списки</h2>
+    Язык HTML предоставляет элементы для разметки трех типов:
+    <div class="accordion" id="accordionExample">
+
+      <div class="accordion-item bg-danger">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Маркированный список. Набор пунктов, очередность которых неважна.
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body" style="color:white">
+            Чтобы определить маркированный список, отметьте его как элемент ul.
+            Открывающий тег &lt;ul> вводится до первого пункта списка, а закрывающий тег < /ul> — после последнего. Затем, заключая каждую часть
+            в открывающий и закрывающий теги li, мы помечаем ее в качестве
+            элемента списка (li)
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item bg-danger">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Нумерованный список. Перечень, в котором последовательность
+            элементов имеет значение.
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body" style="color:white">
+            Нумерованные или упорядоченные списки предназначены для элементов, которые следуют в определенном порядке, например пошаговые
+            инструкции. Они функционируют так же, как и описанные ранее маркированные списки, за исключением того, что определены с помощью
+            элемента ol. Вместо маркеров браузер автоматически указывает номера перед элементами списка, поэтому вам не нужно проставлять их
+            в исходном документе. Это позволяет легко менять местами элементы
+            списка без повторной нумерации.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item bg-danger">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Список определений. Состоит из пар «имя/значение», в том числе
+            терминов и определений.
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body" style="color:white">
+            Списки определений используются для формирования любого типа пар
+            «имя/значение», таких как термины и их значения, вопросы и ответы,
+            прочие виды понятий и связанной с ними информации. Этот формат
+            немного отличается от двух других типов. Весь список размечен с помощью элемента dl. Его содержимое — это несколько элементов d t,
+            обозначающих имена, и dd, обозначающих соответствующие им значения
+
+        </div>
+      </div>
+    </div>
+    <ul>
+
+
+
+    <h2>Предварительно отформатированный текст</h2>
+    Для определенных типов информации, таких как
+    примеры кода или стихи, пробельные символы имеют важное по смыслу значение. Для этих целей используется элемент предварительно отформатированного текста (рге). Только он позволяет отображать все
+    точно так, как напечатано в исходном документе, в том числе переводы строк и множественные символы табуляции. <br>
+    &lt;рге>...</рге>
+    <h2>Верхние и нижние колонтитулы
+    </h2>
+    <h3>Верхние колонтитулы</h3>
+    Элемент header используется для размещения вводного материала, который обычно расположен в начале веб-страницы либо в верхней части
+    раздела или статьи. Не существует определенных требований к содержанию элемента header; допустимо добавлять все, что подходит в качестве введения к странице или разделу.
+    <h3>Нижние колонтитулы</h3>
+    Элемент footer используется для указания типа информации, которая обычно сообщается в конце страницы или статьи, например имя
+    автора, информация об авторских правах, относящиеся к статье документы или элементы навигации, footer может применяться ко всему
+    документу или быть связанным с определенным разделом или статьей.
+    <h2>Акцентированный текст</h2>
+    Для указания части предложения, которую необходимо акцентировать
+    или выделить, используйте элемент еm. Элементы выделенного текста (еm) почти всегда отображаются по
+    умолчанию курсивом, но их можно оформить
+    любым способом с помощью таблицы стилей.
+    <h2>Важный текст</h2>
+    Элемент strong указывает, что слово или фраза — важны. В следующем примере с помощью элемента strong обозначены фрагменты инструкции, требующие особого внимания. По умолчанию графические браузеры отображают текст, заключенный в элементе strong, полужирным шрифтом.
+    <h2>Короткие цитаты</h2>
+    Используйте элемент цитаты (q), чтобы разметить короткие цитаты.Согласно спецификации HTML, браузеры должны автоматически добавлять кавычки вокруг элементов q, поэтому вам не нужно включать
+    их в исходный код.
+    <h2>Аббревиатуры и сокращения</h2>
+    Разметка сокращений, акронимов и аббревиатур с помощью элемента abbr предоставляет полезную информацию для поисковых систем,
+    программ экранного доступа и других устройств.Полная версия сокращенного слова указывается в атрибуте title, как показано в этом примере. <br>
+
+    <button class="btn btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+      Пример
+    </button>
+    </p>
+    <div class="collapse" id="collapseExample3">
+    <div class="card card-body">
+      <pre class="text-bg-dark p-3">
+     &lt;<b style="color:#e8695a">abbr</b> title="километры">км.&lt;/<b style="color:#e8695a">abbr</b>>
+      </pre>
+    </div>
+    </div>
+
+    <h2>Нижний и верхний индекс</h2>
+    Элементы нижнего (sub) и верхнего индексов (sup) форматируют выделенный текст шрифтом меньшего размера и располагают его чуть
+    ниже (sub) или выше (sup) основной строки.
+    <h2>Идентификаторы</h2>
+    <a name="ssilki"></a>
+    Идентификаторы используются, чтобы создавать уникальные идентификаторы в документе.Значение идентификатора
+    должно использоваться только однажды в документе. Это делает его
+    полезным для назначения имени специфическому элементу, как если
+    бы это была часть данных.
+    <h1>Добавление ссылок</h1>
+
+    Есть элемент, который делает возможной работу ссылок — это якорь
+    (а). <br>
+    <button class="btn btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
+      Пример
+    </button>
+    </p>
+    <div class="collapse" id="collapseExample4">
+    <div class="card card-body">
+      <pre class="text-bg-dark p-3">
+      &lt;<b style="color:#e8695a">а</b>>...&lt;/<b style="color:#e8695a">а</b>><br>
+      </pre>
+    </div>
+    </div>
+
+    <strong>Элемент якоря (привязки) (гипертекстовая ссылка)
+    </strong><br>
+    Чтобы превратить выделенный текст в ссылку, поместите его между
+    открывающим и закрывающим тегами — <а>.. .</а> — и с помощью
+    атрибута href укажите URL-адрес страницы, на которую будет осуществляться переход. Содержимое элемента якоря становится гипертекстовой ссылкой. <br>
+    Пример: <br>
+    <button class="btn btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample5">
+      Пример
+    </button>
+    </p>
+    <div class="collapse" id="collapseExample5">
+    <div class="card card-body">
+      <pre class="text-bg-dark p-3">
+    &lt;<b style="color:#e8695a">a</b> href="https://ru.wikipedia.org/wiki/Браузер">Перейти на сайт Википедия&lt;/<b style="color:#e8695a">a</b>>
+      </pre>
+    </div>
+    </div>
+
+    <h2>Атрибут href</h2>
+    Браузеру необходимо сообщить, на какой документ осуществлять переход по ссылке. Атрибут href (гипертекстовая ссылка) содержит в себе
+    адрес страницы (URL-адрес) и передает его браузеру. URL-адрес обязательно должен быть заключен в кавычки. В большинстве случаев вам
+    придется ссылаться на другие HTM L-документы; однако возможно
+    создание ссылок и на другие объекты, например изображения, аудиои видео-файлы.
+    <h2>Создание ссылки на определенную
+    позицию страницы
+    </h2>
+    Сначала нужно поределить расположение с помощью атрибута <b>id</b>
+      <a name="izobr"></a>
+    <p class="text-bg-dark p-3">&lt;<b style="color:#e8695a">p</b> id="290">любой нужный вам текст&lt;/<b style="color:#e8695a">p</b>> </p>
+    Затем нужно создать ссылку на расположение.Символ # перед именем необходим
+    для обозначения того, что это фрагмент, а не имя файла.
+    <p class="text-bg-dark p-3"> &lt;<b style="color:#e8695a">p</b>> &lt;<b style="color:#e8695a">a</b> href= #290>слово, которое будет ссылкой&lt;/<b style="color:#e8695a">a</b>>&lt;/<b style="color:#e8695a">р</b>&gt; </p>
+    <h1>Добавление изображений</h1>
+
+    Элемент img указывает браузеру: «Вставь изображение сюда».
+    Элемент следует вставлять прямо в поток текста в той позиции, где должно быть изображение. Изображения остаются в потоке текста и не становятся причиной перевода строк. <br>
+    <img src="countryside.
+    jpg" alt=""> <br>
+    Приведенные в примере атрибуты <b>src</b> и <b>alt</b> являются обязательными. Атрибут <b>src</b> сообщает браузеру расположение файла изображения.
+    Атрибут <b>alt</b> передает замещающий текст, который отображается на
+    странице, если изображение недоступно.
+    <h2>Изменение размеров изображения</h2>
+    <b>width</b>="number" <br>
+    Ширина изображения в пикселях <br>
+    <b>height</b>="number"<br>
+    Высота изображения в пикселях <br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   </body>
+</html>

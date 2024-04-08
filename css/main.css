@@ -1,0 +1,25 @@
+header{padding:100px 0;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3265ff+1,cc0cfc+100 */
+  background-image: url("https://catherineasquithgallery.com/uploads/posts/2023-01/1674544105_catherineasquithgallery-com-p-fon-korichnevii-poloska-202.jpg");/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+text-align: center;
+color: #f8f9fa;
+
+
+}
+body{background: linear-gradient(to right,  rgba(86,11,11,1) 0%,rgba(191,15,15,1) 100%);
+border-color: white;
+color:white;
+margin: 0 auto; /*центрируем и убираем отступы*/
+padding:0 300px;/*делаем страничку резиновой */
+
+}
+
+
+color: #f8f9fa}
+background: linear-gradient(to right,  rgba(255,169,33,1) 0%,rgba(255,94,20,1) 45%,rgba(255,67,20,1) 100%);
+background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1613025069_119-p-kartinki-fona-oranzhevogo-tsveta-132.jpg")
+strong{ color: black;}
+.card.card-body {
+  background: #990000;
+
+}
