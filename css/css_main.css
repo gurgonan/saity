@@ -5,5 +5,7 @@ text-align: center;
 color: #f8f9fa;
 
 }
-body{background-image: url('https://catherineasquithgallery.com/uploads/posts/2023-01/1674373459_catherineasquithgallery-com-p-fon-svetlo-serii-serii-foto-16.jpg')}
+body{background-image: url('https://catherineasquithgallery.com/uploads/posts/2023-01/1674373459_catherineasquithgallery-com-p-fon-svetlo-serii-serii-foto-16.jpg');
+margin: 0 auto; /*центрируем и убираем отступы*/
+padding:0 300px;}
 background: linear-gradient(to right,  rgba(50,101,255,1) 1%,rgba(204,12,252,1) 100%);

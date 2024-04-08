@@ -7,7 +7,8 @@ color: #f8f9fa;
 }
 body{
  background: linear-gradient(to right,  rgba(166,207,219,1) 0%,rgba(125,185,232,1) 100%,rgba(166,207,219,1) 100%);
-;
+margin: 0 auto; /*центрируем и убираем отступы*/
+padding:0 300px;
 
 
 
